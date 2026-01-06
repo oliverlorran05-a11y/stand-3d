@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stand 3D Phinia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Loading Overlay -->
+  <div id="loading-overlay">
+    <div class="loader">Carregando...</div>
+  </div>
+
+  <!-- Canvas Three.js -->
+  <canvas id="webgl"></canvas>
+
+  <!-- UI Buttons -->
+  <div id="ui">
+    <img id="btn-light" src="assets/itens/lampada-apagada.svg" title="Ligar/Desligar Luz">
+    <img id="btn-autorotate" src="assets/itens/play.svg" title="Auto-Rotate">
+    <img id="btn-fullscreen" src="assets/itens/fullscreen1.svg" title="Fullscreen">
+    <img id="btn-topview" src="assets/itens/planta-baixa.svg" title="Top View">
+    <img id="btn-zoom" src="assets/itens/zoom.svg" title="Zoom">
+  </div>
+
+  <!-- Logo -->
+  <img id="logo" src="assets/logos/cliente.svg" alt="Cliente Logo">
+
+  <!-- Mobile Hint -->
+  <div id="mobile-hint">Use dois dedos para girar e zoom</div>
+
+  <!-- Three.js Script -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>
